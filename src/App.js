@@ -15,8 +15,8 @@ class App extends Component {
         <BrowserRouter>
           <Routes>
             <Route path="/">
-              <Route index element={<LandingPage />} />
-              <Route path="/job" element={<JobPage />} />
+              <Route index element={<JobPage />} />
+              {/* <Route path="/job" element={<JobPage />} /> */}
               <Route path="/application" element={<ApplicantForm />} />
               <Route path="/success" element={<SuccessPage />} />
             </Route>
