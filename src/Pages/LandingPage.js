@@ -19,6 +19,7 @@ const LandingPage = () => {
       <>
         <Container>
           <Button
+            sx={{ background: "blue", padding: "100px" }}
             onClick={() => {
               navigate("/job");
             }}
